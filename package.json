@@ -1,0 +1,35 @@
+{
+  "name": "@jameskolce/server.js",
+  "version": "0.1.0",
+  "description": "Highly Composable & Declarative Node.js Framework for Web Applications",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --declaration",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameskolce/Server.js.git"
+  },
+  "keywords": [
+    "web",
+    "server",
+    "framework",
+    "declarative",
+    "composable"
+  ],
+  "author": "James Kolce <contact@jameskolce.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameskolce/Server.js/issues"
+  },
+  "homepage": "https://github.com/jameskolce/Server.js#readme",
+  "devDependencies": {
+    "@types/node": "^11.9.5",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@jameskolce/lambda.js": "^0.1.0"
+  }
+}
